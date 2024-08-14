@@ -1,0 +1,24 @@
+.stop_watch_wrapper > h1 {
+  color: green;
+  font-size: 48px;
+}
+
+.button_wrapper {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+.button_wrapper > button {
+  background-color: rgb(87, 87, 151);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  &:hover {
+    background-color: rgb(70, 70, 151);
+  }
+  &:active {
+    background-color: rgb(101, 101, 151);
+  }
+}
